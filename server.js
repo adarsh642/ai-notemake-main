@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// Replace with your actual Gemini API key (NOT RECOMMENDED for production)
+
 const geminiApiKey = "AIzaSyBQeJ81gSU94ra5urHa4pHjnON8qgwdgs4";
 
 let chatHistories = {};
